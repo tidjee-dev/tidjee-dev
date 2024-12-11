@@ -53,7 +53,7 @@
 
 <!--START_SECTION:waka-->
 
-```plain
+```text
 From: 04 December 2024 - To: 11 December 2024
 
 Total Time: 6 hrs 17 mins
