@@ -1,8 +1,8 @@
 # 👋 Hi, I'm Donatien (tidjee-dev)
 
-🎯 **Junior Web Developer** passionate about building modern websites and interactive applications.
-📍 Based in Tournai (BE).
-📚 Constantly learning and improving my skills while exploring new technologies.
+- 🎯 **Junior Web Developer** currently in training @ [**BeCode**](https://becode.org/all-trainings/pedagogical-framework-junior-developer/).
+- 📍 Based in Tournai (BE).
+- 📚 Passionate about building modern and interactive web applications while constantly improving my skills.
 
 ---
 
@@ -55,7 +55,11 @@
 
 <!--START_SECTION:waka-->
 
-```txt
+```markdown
+From: 03 December 2024 - To: 10 December 2024
+
+Total Time: 0 secs
+
 No activity tracked
 ```
 
