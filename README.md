@@ -54,11 +54,15 @@
 <!--START_SECTION:waka-->
 
 ```markdown
-From: 10 November 2024 - To: 10 December 2024
+From: 11 November 2024 - To: 11 December 2024
 
-Total Time: 0 secs
+Total Time: 6 hrs 17 mins
 
-No activity tracked
+TypeScript   3 hrs 4 mins    ████████████▒░░░░░░░░░░░░   48.85 %
+Markdown     59 mins         ████░░░░░░░░░░░░░░░░░░░░░   15.79 %
+CSS          46 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.26 %
+YAML         40 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.61 %
+JavaScript   39 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.54 %
 ```
 
 <!--END_SECTION:waka-->
