@@ -54,6 +54,7 @@
 ---
 
 <!--START_SECTION:waka-->
+
 <!--END_SECTION:waka-->
 
 ---
@@ -61,9 +62,20 @@
 ## 🚀 Recent Projects
 
 - 🌐 **React To-Do List**
-  A simple yet powerful To-Do List application built with **React**. Users can add, delete, and mark tasks as completed.
-  _Technologies used: React, CSS, JavaScript._
-  **What I learned**: This project helped me deepen my understanding of state management, component-based architecture, and dynamic styling in React.
+  A simple yet powerful To-Do List application built with **React**.
+
+  Users can add, delete, and mark tasks as completed.
+
+  _Technologies used:_
+
+  - React,
+  - CSS & SCSS,
+  - TypeScript.
+
+  **What I learned**:
+
+  This project helped me deepen my understanding of state management, component-based architecture, and dynamic styling in React.
+
   [View Project code](https://github.com/tidjee-dev/todo-list-react-v_1) | [View Project demo](https://todo-list-react-v-1.vercel.app/)
 
 ---
