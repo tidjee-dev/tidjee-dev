@@ -4,7 +4,7 @@ on:
   # Trigger manually or run daily at 12:00 AM UTC
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "*/10 * * * *"
 
 jobs:
   update-readme:
@@ -25,13 +25,13 @@ jobs:
           # Content Tweaks
           SHOW_TITLE: true # Show title above stats blob
           SECTION_NAME: waka # Target section name in the README
-          BLOCKS: ░▒▓█ # Ascii art for graphs (can be customized)
+          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿ # Ascii art for graphs (can be customized)
           CODE_LANG: markdown # Highlight stats as plain text
-          TIME_RANGE: last_30_days # Aggregation period (last 7 days)
-          LANG_COUNT: 5 # Number of languages to display
+          TIME_RANGE: last_7_days # Aggregation period (last 7 days)
+          LANG_COUNT: 10 # Number of languages to display
           SHOW_TIME: true # Show time spent per language
           SHOW_TOTAL: true # Show total time spent on coding
-          SHOW_MASKED_TIME: false # Include masked stats (unclassified time)
+          SHOW_MASKED_TIME: true # Include masked stats (unclassified time)
           STOP_AT_OTHER: true # Stop after the "Other" language category
           IGNORED_LANGUAGES: Binary # Languages to exclude from stats
 
