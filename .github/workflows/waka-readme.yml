@@ -1,39 +1,42 @@
-name: Waka Readme
+name: Waka Readme Update
 
 on:
-  # for manual workflow trigger
+  # Trigger manually or run daily at 12:00 AM UTC
   workflow_dispatch:
   schedule:
-    # runs at 12 AM UTC (5:30 AM IST)
     - cron: "0 0 * * *"
 
 jobs:
   update-readme:
-    name: WakaReadme DevMetrics
+    name: Update WakaTime Stats in README
     runs-on: ubuntu-latest
+
     steps:
-      # this action name
-      - uses: athul/waka-readme@master # do NOT replace with anything else
+      - name: Fetch and Update WakaTime Metrics
+        uses: athul/waka-readme@master
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }} # required
-          # ### meta
-          # API_BASE_URL: https://wakatime.com/api # optional
-          # ### content
-          # SHOW_TITLE: true # optional
-          # SECTION_NAME: waka # optional
-          # BLOCKS: -> # optional
-          # TIME_RANGE: all_time # optional
-          # LANG_COUNT: 10 # optional
-          # SHOW_TIME: true # optional
-          # SHOW_TOTAL: true # optional
-          # SHOW_MASKED_TIME: false # optional
-          # STOP_AT_OTHER: true # optional
-          # ### commit
-          # COMMIT_MESSAGE: Updated waka-readme graph with new metrics # optional
-          # TARGET_BRANCH: main # optional
-          # TARGET_PATH: README.md # optional
-          # COMMITTER_NAME: GitHubActionBot # optional
-          # COMMITTER_EMAIL: action-bot@github.com # optional
-          # AUTHOR_NAME: "Donatien Pinet (tidjee-dev)" # optional
-          # AUTHOR_EMAIL: pinet.donatien@gmail.com # optional
-          # # you can populate email-id with secrets instead
+          # Meta Tweaks
+          API_BASE_URL: https://wakatime.com/api # Default WakaTime API
+          REPOSITORY: tidjee-dev/tidjee-dev # Replace with your GitHub repository
+
+          # Content Tweaks
+          SHOW_TITLE: true # Show title above stats blob
+          SECTION_NAME: waka # Target section name in the README
+          BLOCKS: ░▒▓█ # Ascii art for graphs (can be customized)
+          CODE_LANG: markdown # Highlight stats as plain text
+          TIME_RANGE: last_7_days # Aggregation period (last 7 days)
+          LANG_COUNT: 5 # Number of languages to display
+          SHOW_TIME: true # Show time spent per language
+          SHOW_TOTAL: true # Show total time spent on coding
+          SHOW_MASKED_TIME: false # Include masked stats (unclassified time)
+          STOP_AT_OTHER: true # Stop after the "Other" language category
+          IGNORED_LANGUAGES: Binary # Languages to exclude from stats
+
+          # Commit Tweaks
+          COMMIT_MESSAGE: "Updated waka-readme graph with new metrics" # Custom commit message
+          TARGET_BRANCH: main # Branch to push changes
+          TARGET_PATH: README.md # Path of the target file to update
+          COMMITTER_NAME: GitHubActionBot # Committer name for the updates
+          COMMITTER_EMAIL: action-bot@github.com # Committer email
+          AUTHOR_NAME: "Donatien Pinet (tidjee-dev)" # Author name for the updates
+          AUTHOR_EMAIL: pinet.donatien@gmail.com # Author email
