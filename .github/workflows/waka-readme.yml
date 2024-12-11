@@ -15,12 +15,18 @@ jobs:
       - name: Fetch and Update WakaTime Metrics
         uses: athul/waka-readme@master
         with:
+          # Authentication (Required)
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+
           # Meta Tweaks
           API_BASE_URL: https://wakatime.com/api # Default WakaTime API
+          REPOSITORY: tidjee-dev/tidjee-dev # Replace with your GitHub repository
 
           # Content Tweaks
           SHOW_TITLE: true # Show title above stats blob
+          SECTION_NAME: waka # Target section name in the README
           BLOCKS: ░▒▓█ # Ascii art for graphs (can be customized)
+          CODE_LANG: markdown # Highlight stats as plain text
           TIME_RANGE: last_7_days # Aggregation period (last 7 days)
           LANG_COUNT: 5 # Number of languages to display
           SHOW_TIME: true # Show time spent per language
