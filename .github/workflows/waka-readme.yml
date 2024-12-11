@@ -4,7 +4,7 @@ on:
   # Trigger manually or run daily at 12:00 AM UTC
   workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   update-readme:
