@@ -68,6 +68,7 @@ No activity tracked
 ## 🚀 Recent Projects
 
 - 🌐 **React To-Do List**
+
   A simple yet powerful To-Do List application built with **React**.
 
   Users can add, delete, and mark tasks as completed.
