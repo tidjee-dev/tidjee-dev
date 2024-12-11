@@ -4,7 +4,7 @@ on:
   # Trigger manually or run daily at 12:00 AM UTC
   workflow_dispatch:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "0 */12 * * *"
 
 jobs:
   update-readme:
@@ -26,7 +26,7 @@ jobs:
           SHOW_TITLE: true # Show title above stats blob
           SECTION_NAME: waka # Target section name in the README
           BLOCKS: ⣀⣄⣤⣦⣶⣷⣿ # Ascii art for graphs (can be customized)
-          CODE_LANG: markdown # Highlight stats as plain text
+          CODE_LANG: text # Highlight stats as plain text
           TIME_RANGE: last_7_days # Aggregation period (last 7 days)
           LANG_COUNT: 10 # Number of languages to display
           SHOW_TIME: true # Show time spent per language

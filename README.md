@@ -53,7 +53,7 @@
 
 <!--START_SECTION:waka-->
 
-```markdown
+```plain
 From: 04 December 2024 - To: 11 December 2024
 
 Total Time: 6 hrs 17 mins
@@ -78,7 +78,9 @@ Other        0 secs          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
   A simple yet powerful To-Do List application built with **React**.
 
-  Users can add, delete, and mark tasks as completed.
+  [v1] Users can add, delete, and mark tasks as completed. The tasks are stored in the local storage, ensuring data persistence across sessions.
+
+  [v2] The application features a calendar view for easy task scheduling and an export/import feature.
 
   _Technologies used:_
 
