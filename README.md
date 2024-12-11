@@ -51,8 +51,6 @@
 
 ## ![tidjee-dev's Stats](https://github-readme-stats.vercel.app/api?username=tidjee-dev&theme=nightowl&show_icons=true&hide_border=false&count_private=true) ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tidjee-dev&layout=compact&langs_count=20&theme=nightowl) ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=tidjee-dev&theme=nightowl)
 
----
-
 <!--START_SECTION:waka-->
 
 ```markdown
