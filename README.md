@@ -92,7 +92,9 @@ Other        0 secs          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
   This project helped me deepen my understanding of state management, component-based architecture, and dynamic styling in React.
 
-  [View Project code](https://github.com/tidjee-dev/todo-list-react-v_1) | [View Project v_1 demo](https://todo-list-react-v-1.vercel.app/) | [View Project v_2 demo](https://todo-list-react-v-2.vercel.app/)
+  [View Project v_1 code](https://github.com/tidjee-dev/todo-list-react-v_1) | [View Project v_2 code](https://github.com/tidjee-dev/todo-list-react-v_2)
+
+  [View Project v_1 demo](https://todo-list-react-v-1.vercel.app/) | [View Project v_2 demo](https://todo-list-react-v-2.vercel.app/)
 
 ---
 
