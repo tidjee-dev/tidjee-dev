@@ -17,6 +17,8 @@
 
 ## 🛠️ Technical Skills
 
+[![wakatime](https://wakatime.com/badge/user/c1619225-440d-4255-8541-f91f164193fc.svg?style=for-the-badge)](https://wakatime.com/@c1619225-440d-4255-8541-f91f164193fc)
+
 ### 🌐 **Frontend**
 
 - HTML5, CSS3, SCSS
