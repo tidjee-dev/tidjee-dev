@@ -9,7 +9,7 @@
 ## 🌟 About Me
 
 - 🔭 Currently working on hands-on projects as part of my **BeCode Web Development** training.
-- 🎓 Learning **JavaScript**, **TypeScript**, and **Node.js**, with a focus on creating responsive and user-friendly applications.
+- 🎓 Learning **TypeScript** and **PHP**, with a focus on creating responsive and user-friendly applications.
 - 🌱 Exploring modern tools like **React**, **SCSS**, and **Tailwind CSS** to enhance my development capabilities.
 - ⚡ Fun fact: I love problem-solving and enjoy experimenting with design and code to create seamless user experiences.
 
@@ -28,8 +28,10 @@
 ### ⚙️ **Backend**
 
 - Node.js, Express
+- PHP
 - MySQL, PostgreSQL, SQLite
 - RESTful APIs
+- Frameworks: Symfony
 
 ### 🛡️ **Security**
 
@@ -39,7 +41,7 @@
 ### 🖌️ **UI/UX**
 
 - Responsive Design
-- Tailwind CSS, Bootstrap
+- Tailwind CSS, Bootstrap, Bulma
 
 ### 📦 **Tools**
 
@@ -49,7 +51,7 @@
 
 ---
 
-## 📈 GitHub Stats
+## 📈 Stats
 
 ## ![tidjee-dev's Stats](https://github-readme-stats.vercel.app/api?username=tidjee-dev&theme=nightowl&show_icons=true&hide_border=false&count_private=true) ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tidjee-dev&layout=compact&langs_count=20&theme=nightowl) ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=tidjee-dev&theme=nightowl)
 
@@ -76,7 +78,7 @@ Image (svg)   1 min           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 
 ---
 
-## 🚀 Recent Projects
+<!-- ## 🚀 Recent Projects
 
 - 🌐 **React To-Do List**
 
@@ -100,7 +102,7 @@ Image (svg)   1 min           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 
   [View Project v_1 demo](https://todo-list-react-v-1.vercel.app/) | [View Project v_2 demo](https://todo-list-react-v-2.vercel.app/)
 
----
+--- -->
 
 ## 🤝 Let's Connect
 
