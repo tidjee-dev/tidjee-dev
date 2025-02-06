@@ -21,8 +21,8 @@
 
 ### 🌐 **Frontend**
 
-- HTML5, CSS3, SCSS
-- JavaScript (ES6+), TypeScript
+- HTML, CSS, SCSS
+- JavaScript, TypeScript
 - Frameworks: React
 
 ### ⚙️ **Backend**
