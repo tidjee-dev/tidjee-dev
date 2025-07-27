@@ -58,11 +58,11 @@
 <!--START_SECTION:waka-->
 
 ```text
-From: 17 July 2025 - To: 24 July 2025
+From: 19 July 2025 - To: 26 July 2025
 
-Total Time: 11 hrs 47 mins
+Total Time: 15 hrs 3 mins
 
-Other              9 hrs 42 mins   ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⣀⣀⣀⣀   82.31 %
+Other            13 hrs          ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣀⣀⣀   86.40 %
 ```
 
 <!--END_SECTION:waka-->
