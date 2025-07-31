@@ -32,7 +32,7 @@ jobs:
           SHOW_TIME: true # Show time spent per language
           SHOW_TOTAL: true # Show total time spent on coding
           SHOW_MASKED_TIME: true # Include masked stats (unclassified time)
-          STOP_AT_OTHER: true # Stop after the "Other" language category
+          STOP_AT_OTHER: false # Stop after the "Other" language category
           IGNORED_LANGUAGES: Binary # Languages to exclude from stats
 
           # Commit Tweaks
