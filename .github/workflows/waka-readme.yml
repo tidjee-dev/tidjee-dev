@@ -27,7 +27,7 @@ jobs:
           SECTION_NAME: waka # Target section name in the README
           BLOCKS: ⣀⣄⣤⣦⣶⣷⣿ # Ascii art for graphs (can be customized)
           CODE_LANG: text # Highlight stats as plain text
-          TIME_RANGE: last_7_days # Aggregation period (last 7 days)
+          TIME_RANGE: last_30_days # Aggregation period (last month) DEFAULT: last_7_days
           LANG_COUNT: 10 # Number of languages to display
           SHOW_TIME: true # Show time spent per language
           SHOW_TOTAL: true # Show total time spent on coding
