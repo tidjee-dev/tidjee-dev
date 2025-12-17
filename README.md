@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Donatien (tidjee-dev)
 
-- 🎯 **Junior Web Developer** currently in training @ [**BeCode**](https://becode.org/all-trainings/pedagogical-framework-junior-developer/).
+- 🎯 **Junior Web Developer** trained @ [**BeCode**](https://becode.org/all-trainings/pedagogical-framework-junior-developer/).
 - 📍 Based in Tournai (BE).
 - 📚 Passionate about building modern and interactive web applications while constantly improving my skills.
 
@@ -23,15 +23,15 @@
 
 - HTML, CSS, SCSS
 - JavaScript, TypeScript
-- Frameworks: React
+<!-- - Frameworks: --> 
 
 ### ⚙️ **Backend**
 
 - Node.js, Express
 - PHP
-- MySQL, PostgreSQL, SQLite
+- MySQL, SQLite
 - RESTful APIs
-- Frameworks: Symfony
+- Frameworks: Symfony, Laravel
 
 ### 🛡️ **Security**
 
@@ -41,7 +41,7 @@
 ### 🖌️ **UI/UX**
 
 - Responsive Design
-- Tailwind CSS, Bootstrap, Bulma
+- Tailwind CSS, Bootstrap
 
 ### 📦 **Tools**
 
